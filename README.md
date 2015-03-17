@@ -11,6 +11,7 @@ A web application used mainly for viewing of historical data, and ideally for li
 * MySQL
 * HTML5
 * [Grunt JS] (http://gruntjs.com/)
+* [Bower](http://bower.io/)
 
 
 ## Database Concepts
