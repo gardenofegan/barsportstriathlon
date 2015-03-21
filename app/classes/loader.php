@@ -35,10 +35,10 @@ class Loader {
     //factory method which establishes the requested controller as an object
     public function createController() {
         //check our requested controller's class file exists and require it if so
-        if (file_exists("controllers/" . $this->controllerName . ".php")) {
-            require("controllers/" . $this->controllerName . ".php");
+        if (file_exists($_SERVER['DOCUMENT_ROOT']."/app/controllers/" . $this->controllerName . ".php")) {
+            require($_SERVER['DOCUMENT_ROOT']."/app/controllers/" . $this->controllerName . ".php");
         } else {
-            require("controllers/error.php");
+            require($_SERVER['DOCUMENT_ROOT']."/app/controllers/error.php");
             return new ErrorController("badurl",$this->urlValues);
         }
                 
@@ -54,17 +54,17 @@ class Loader {
                     return new $this->controllerClass($this->action,$this->urlValues);
                 } else {
                     //bad action/method error
-                    require("controllers/error.php");
+                    require($_SERVER['DOCUMENT_ROOT']."/app/controllers/error.php");
                     return new ErrorController("badurl",$this->urlValues);
                 }
             } else {
                 //bad controller error
-                require("controllers/error.php");
+                require($_SERVER['DOCUMENT_ROOT']."/app/controllers/error.php");
                 return new ErrorController("badurl",$this->urlValues);
             }
         } else {
             //bad controller error
-            require("controllers/error.php");
+            require($_SERVER['DOCUMENT_ROOT']."/app/controllers/error.php");
             return new ErrorController("badurl",$this->urlValues);
         }
     }
