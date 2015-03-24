@@ -7,13 +7,14 @@ A web application used mainly for viewing of historical data, and ideally for li
 ## Prerequisites
 * [Git](http://git-scm.com/)
 * [Node](https://nodejs.org/) _with npm_
-* [Bower] (http://bower.io/)
+* [Bower](http://bower.io/)
+* [Grunt JS](http://gruntjs.com/)
 
 ## Installation (will be updating often in the beginning)
 * ``` git clone <repository-url> ``` this repository
 * change into the new directory
-* npm install
-* bower install
+* ```npm install```
+* ```bower install```
 * ```grunt```
 
 
