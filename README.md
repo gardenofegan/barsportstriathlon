@@ -15,7 +15,7 @@ A web application used mainly for viewing of historical data, and ideally for li
 * change into the new directory
 * ```npm install```
 * ```bower install```
-* ```grunt```
+* ```grunt``` - will start up browserSync and watch task
 
 
 ## Developed Using
@@ -24,7 +24,7 @@ A web application used mainly for viewing of historical data, and ideally for li
 * CSS Preprocessor - [SASS](http://sass-lang.com/)
 * MySQL
 * HTML5
-* [Grunt JS] (http://gruntjs.com/)
+* [Grunt JS](http://gruntjs.com/)
 * [Bower](http://bower.io/)
 
 

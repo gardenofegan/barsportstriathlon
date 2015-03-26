@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bar Sports Triathlon | <?php echo $viewModel->get('pageTitle'); ?></title>
-    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/barsportstriathlon.css" />
     <script src="assets/js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -35,7 +35,8 @@
     </div>
       
     <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/vendor/oundation.min.js"></script>
+    <script src="assets/js/vendor/foundation.min.js"></script>
+    <script src="assets/js/barsportstriathlon.js"></script>
     <script>
       $(document).foundation();
     </script>
