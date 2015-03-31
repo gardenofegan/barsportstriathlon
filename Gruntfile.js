@@ -188,6 +188,10 @@ module.exports = function(grunt) {
   //loaded, but unimplemented
   // need to setup to clean out temp files and directories after builds and dist
   grunt.loadNpmTasks('grunt-contrib-clean');
+  // probably still want following tasks
+  // grunt process html
+  // style guide and kss
+  // 
 
 
   // Default task(s).

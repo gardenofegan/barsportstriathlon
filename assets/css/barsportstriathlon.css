@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 meta.foundation-version {
   font-family: "/5.5.1/";
 }
@@ -73,7 +75,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1430,7 +1432,7 @@ select {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 1rem;
 }
 .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -1455,8 +1457,8 @@ select {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
   transition: opacity 300ms ease-out;
-  background-color: #008cba;
-  border-color: #0078a0;
+  background-color: #3b653d;
+  border-color: #335734;
   color: white;
 }
 .alert-box .close {
@@ -1945,13 +1947,13 @@ select {
   font-size: 0.6875rem;
   line-height: 0.6875rem;
   text-transform: uppercase;
-  color: #008cba;
+  color: #3b653d;
 }
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
   text-decoration: underline;
 }
 .breadcrumbs > * a {
-  color: #008cba;
+  color: #3b653d;
 }
 .breadcrumbs > *.current {
   cursor: default;
@@ -1997,7 +1999,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2013,13 +2015,13 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008cba;
-  border-color: #007095;
+  background-color: #3b653d;
+  border-color: #2f5131;
   color: white;
   transition: background-color 300ms ease-out;
 }
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #007095;
+  background-color: #2f5131;
 }
 button:hover, button:focus, .button:hover, .button:focus {
   color: white;
@@ -2120,21 +2122,21 @@ button.round, .button.round {
   border-radius: 1000px;
 }
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #008cba;
-  border-color: #007095;
+  background-color: #3b653d;
+  border-color: #2f5131;
   color: white;
   cursor: default;
   opacity: 0.7;
   box-shadow: none;
 }
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #007095;
+  background-color: #2f5131;
 }
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
   color: white;
 }
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #008cba;
+  background-color: #3b653d;
 }
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
   background-color: #e7e7e7;
@@ -3558,7 +3560,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -3790,7 +3792,7 @@ label.error {
   color: white;
 }
 .icon-bar > a:hover {
-  background: #008cba;
+  background: #3b653d;
 }
 .icon-bar > a:hover label {
   color: white;
@@ -3799,7 +3801,7 @@ label.error {
   color: white;
 }
 .icon-bar > a.active {
-  background: #008cba;
+  background: #3b653d;
 }
 .icon-bar > a.active label {
   color: white;
@@ -4143,7 +4145,7 @@ kbd {
 
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -4153,7 +4155,7 @@ kbd {
   margin-bottom: auto;
   padding: 0.25rem 0.5rem 0.25rem;
   font-size: 0.6875rem;
-  background-color: #008cba;
+  background-color: #3b653d;
   color: white;
 }
 .label.radius {
@@ -4531,13 +4533,13 @@ ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.p
   background: transparent;
 }
 ul.pagination li.current a, ul.pagination li.current button {
-  background: #008cba;
+  background: #3b653d;
   color: white;
   font-weight: bold;
   cursor: default;
 }
 ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
-  background: #008cba;
+  background: #3b653d;
 }
 ul.pagination li {
   float: left;
@@ -4582,10 +4584,10 @@ ul.pagination li {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #b6edff;
+  border-color: #d0e3d1;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #ecfaff;
+  background: #f2f7f2;
   color: #333333;
 }
 .panel.callout > :first-child {
@@ -4605,10 +4607,10 @@ ul.pagination li {
   line-height: 1.4;
 }
 .panel.callout a:not(.button) {
-  color: #008cba;
+  color: #3b653d;
 }
 .panel.callout a:not(.button):hover, .panel.callout a:not(.button):focus {
-  color: #0078a0;
+  color: #335734;
 }
 .panel.radius {
   border-radius: 3px;
@@ -4631,7 +4633,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 .pricing-table .price {
   background-color: #f6f6f6;
@@ -4640,7 +4642,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 .pricing-table .description {
   background-color: white;
@@ -4676,7 +4678,7 @@ ul.pagination li {
   margin-bottom: 0.625rem;
 }
 .progress .meter {
-  background: #008cba;
+  background: #3b653d;
   height: 100%;
   display: block;
 }
@@ -4745,22 +4747,22 @@ ul.pagination li {
   border-radius: 3px;
 }
 .range-slider.radius .range-slider-handle {
-  background: #008cba;
+  background: #3b653d;
   border-radius: 3px;
 }
 .range-slider.radius .range-slider-handle:hover {
-  background: #007ba4;
+  background: #345936;
 }
 .range-slider.round {
   background: #fafafa;
   border-radius: 1000px;
 }
 .range-slider.round .range-slider-handle {
-  background: #008cba;
+  background: #3b653d;
   border-radius: 1000px;
 }
 .range-slider.round .range-slider-handle:hover {
-  background: #007ba4;
+  background: #345936;
 }
 .range-slider.disabled, .range-slider[disabled] {
   background: #fafafa;
@@ -4768,12 +4770,12 @@ ul.pagination li {
   opacity: 0.7;
 }
 .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
-  background: #008cba;
+  background: #3b653d;
   cursor: default;
   opacity: 0.7;
 }
 .range-slider.disabled .range-slider-handle:hover, .range-slider[disabled] .range-slider-handle:hover {
-  background: #007ba4;
+  background: #345936;
 }
 
 .range-slider-active-segment {
@@ -4794,10 +4796,10 @@ ul.pagination li {
   cursor: pointer;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  background: #008cba;
+  background: #3b653d;
 }
 .range-slider-handle:hover {
-  background: #007ba4;
+  background: #345936;
 }
 
 .reveal-modal-bg {
@@ -4947,7 +4949,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 .side-nav li {
   margin: 0 0 0.4375rem 0;
@@ -4956,18 +4958,18 @@ ul.pagination li {
 }
 .side-nav li a:not(.button) {
   display: block;
-  color: #008cba;
+  color: #3b653d;
   margin: 0;
   padding: 0.4375rem 0.875rem;
 }
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
   background: rgba(0, 0, 0, 0.025);
-  color: #1cc7ff;
+  color: #64a567;
 }
 .side-nav li.active > a:first-child:not(.button) {
-  color: #1cc7ff;
+  color: #64a567;
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 .side-nav li.divider {
   border-top: 1px solid;
@@ -4977,7 +4979,7 @@ ul.pagination li {
   border-top-color: white;
 }
 .side-nav li.heading {
-  color: #008cba;
+  color: #3b653d;
   font-size: 0.875rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -5120,7 +5122,7 @@ ul.pagination li {
   float: left;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -5142,7 +5144,7 @@ ul.pagination li {
 .sub-nav li.active a {
   border-radius: 3px;
   font-weight: normal;
-  background: #008cba;
+  background: #3b653d;
   padding: 0.1875rem 1rem;
   cursor: default;
   color: white;
@@ -5150,7 +5152,7 @@ ul.pagination li {
 .sub-nav dt.active a:hover,
 .sub-nav dd.active a:hover,
 .sub-nav li.active a:hover {
-  background: #0078a0;
+  background: #335734;
 }
 
 .switch {
@@ -5204,7 +5206,7 @@ ul.pagination li {
   transform: translate3d(0, 0, 0);
 }
 .switch input:checked + label {
-  background: #008cba;
+  background: #3b653d;
 }
 .switch input:checked + label:after {
   left: 2.25rem;
@@ -5228,7 +5230,7 @@ ul.pagination li {
   background: white;
 }
 .switch input:checked + label {
-  background: #008cba;
+  background: #3b653d;
 }
 .switch.large label {
   width: 5rem;
@@ -5353,7 +5355,7 @@ table tr td {
   background-color: #efefef;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 1rem;
 }
 .tabs dd > a:hover, .tabs .tab-title > a:hover {
@@ -5447,7 +5449,7 @@ table tr td {
   transition: all 200ms ease-out;
 }
 .th:hover, .th:focus {
-  box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 6px 1px rgba(59, 101, 61, 0.5);
 }
 .th.radius {
   border-radius: 3px;
@@ -5461,8 +5463,8 @@ table tr td {
   color: #333333;
 }
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #003f54;
-  color: #008cba;
+  border-bottom: dotted 1px #1b2d1b;
+  color: #3b653d;
 }
 .has-tip.tip-left, .has-tip.tip-right {
   float: none !important;
@@ -5507,8 +5509,8 @@ table tr td {
   left: 2rem;
 }
 .tooltip.opened {
-  color: #008cba !important;
-  border-bottom: dotted 1px #003f54 !important;
+  color: #3b653d !important;
+  border-bottom: dotted 1px #1b2d1b !important;
 }
 
 .tap-to-close {
@@ -5726,7 +5728,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 0.9375rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -5735,12 +5737,12 @@ meta.foundation-mq-topbar {
   font-size: 0.8125rem;
   padding-right: 0.9375rem;
   padding-left: 0.9375rem;
-  background-color: #008cba;
-  border-color: #007095;
+  background-color: #3b653d;
+  border-color: #2f5131;
   color: white;
 }
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-  background-color: #007095;
+  background-color: #2f5131;
 }
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
   color: white;
@@ -5793,12 +5795,12 @@ meta.foundation-mq-topbar {
   font-size: 0.8125rem;
   padding-right: 0.9375rem;
   padding-left: 0.9375rem;
-  background-color: #008cba;
-  border-color: #007095;
+  background-color: #3b653d;
+  border-color: #2f5131;
   color: white;
 }
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-  background-color: #007095;
+  background-color: #2f5131;
 }
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
   color: white;
@@ -5853,11 +5855,11 @@ meta.foundation-mq-topbar {
   color: white;
 }
 .top-bar-section ul li.active > a {
-  background: #008cba;
+  background: #3b653d;
   color: white;
 }
 .top-bar-section ul li.active > a:hover {
-  background: #0078a0;
+  background: #335734;
   color: white;
 }
 .top-bar-section .has-form {
@@ -6028,10 +6030,10 @@ meta.foundation-mq-topbar {
     padding: 0 0.9375rem;
     line-height: 2.8125rem;
     color: white;
-    background: #008cba;
+    background: #3b653d;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #0078a0;
+    background: #335734;
     color: white;
   }
   .top-bar-section .has-dropdown > a {
@@ -6149,7 +6151,7 @@ meta.foundation-mq-topbar {
     color: white;
   }
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
+    background: #3b653d;
     color: white;
   }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
@@ -6383,12 +6385,12 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008cba;
+  color: #3b653d;
   text-decoration: none;
   line-height: inherit;
 }
 a:hover, a:focus {
-  color: #0078a0;
+  color: #335734;
 }
 a img {
   border: none;
@@ -6415,7 +6417,7 @@ p aside {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Arimo", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
