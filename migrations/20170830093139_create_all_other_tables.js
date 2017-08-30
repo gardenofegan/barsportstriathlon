@@ -34,7 +34,7 @@ exports.up = function(knex, Promise) {
       t.integer('year').notNullable().unsigned()
       t.date('date').notNullable()
       t.string('location', 50).notNullable()
-      t.string('description', 250)
+      t.string('description', 100)
       t.integer('competition_division_id').unsigned().index().references('id_def_division').inTable('def_division')
     })
   }
