@@ -1,44 +1,30 @@
-# barsportstriathlon
-A web application used mainly for viewing of historical data, and ideally for live scoring of the Annual Bar Sports Triathlon
+# bar-sports-triathlon
 
+> A web application used mainly for viewing of historical data and for live scoring of the Annual Bar Sports Triathlon
 
-***
+## Build Setup
 
-## Prerequisites
-* [Git](http://git-scm.com/)
-* [Node](https://nodejs.org/) _with npm_
-* [Bower](http://bower.io/)
-* [Grunt JS](http://gruntjs.com/)
+``` bash
+# install dependencies
+npm install
 
-## Installation (will be updating often in the beginning)
-* ``` git clone <repository-url> ``` this repository
-* change into the new directory
-* ```npm install```
-* ```bower install```
-* ```grunt``` - will start up browserSync and watch task
+# serve with hot reload at localhost:8080
+npm run dev
 
+# build for production with minification
+npm run build
 
-## Developed Using
-* PHP - Using an MVC starter called [Nathan MVC](https://github.com/ndavison/Nathan-MVC)
-* CSS Framework - [Foundation](http://foundation.zurb.com/)
-* CSS Preprocessor - [SASS](http://sass-lang.com/)
-* MySQL
-* HTML5
-* [Grunt JS](http://gruntjs.com/)
-* [Bower](http://bower.io/)
+# build for production and view the bundle analyzer report
+npm run build --report
 
+# run unit tests
+npm run unit
 
-## Database Concepts
-The database needs to be able store and be queried against the following:
-* Year of Triathlon
-* Person 
-* Event (sub-games of bowling, pool, darts)
-* Division (old guys or young guys)
-* Score (bowling score, win or loss in pool, etc)
-* Event Rank (rank in each sub-event)
-* Total Rank (final rank across all events in a year)
+# run e2e tests
+npm run e2e
 
-The following below are ideal, but not necessary for initial phase:
-* Comments (by year, and person) (tagging system)
-* Pre-event odds (by year and person)
-* Blind doubles tracking
+# run all tests
+npm test
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
