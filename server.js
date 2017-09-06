@@ -26,6 +26,18 @@ app.post('/login', (req, res) => {
     })
 })
 
+app.get('/triathletes', (req, res) => {
+  console.log('server.js')
+  store
+  .triathletesQry()
+  .then(({rows}) => {
+    if (rows) {
+      console.log(rows.length)
+      res.send(rows)
+    } else res.sendStatus(404)
+  })
+})
+
 app.listen(7555, () => {
   console.log('Server running on http://localhost:7555')
 })

@@ -22,6 +22,13 @@ module.exports = {
         })
         return { success: hash === user.encrypted_password }
       })
+  },
+  triathletesQry () {
+    console.log('selecting triathletes')
+    return knex.select().from('triathlete')
+      .then((rows) => {
+        return { rows }
+      })
   }
 }
 

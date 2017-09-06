@@ -31,28 +31,14 @@ export default {
 
   methods: {
     loginUser: function () {
-      // return knex('user').where({ username })
-      //   .then(([user]) => {
-      //     if (!user) return { success: false }
-      //     const { hash } = this.saltHashPassword({
-      //       password,
-      //       salt: user.salt
-      //     })
-      //     return { success: hash === user.encrypted_password }
-      //   })
+      let username = this.username
+      let password = this.password
+      this.$store.dispatch('loginAdminUser', {username: username, password: password})
     },
     createUser: function () {
       let username = this.createUserUsername
       let password = this.createUserPassword
       this.$store.dispatch('createNewUser', {username: username, password: password})
-      console.log('username', username)
-      console.log('password', password)
-      // const { salt, hash } = this.saltHashPassword({ password })
-      // return knex('user').insert({
-      //   salt,
-      //   encrypted_password: hash,
-      //   username
-      // })
     }
   }
 }
