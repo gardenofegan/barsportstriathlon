@@ -39,11 +39,9 @@ const actions = {
     })
   },
   getTriathletes ({commit, state}) {
-    console.log('vue getting triathletes')
     return Vue.http.get('/api/triathletes')
     .then((response) => {
       commit('FETCHED_TRIATHLETES', response.body)
-      console.log(response)
     }).catch(() => {
       commit('FETCHED_TRIATHLETES', [])
       console.log('error')

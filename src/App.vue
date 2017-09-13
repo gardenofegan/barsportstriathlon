@@ -1,23 +1,32 @@
 <template>
   <div id="app">
-    <h1>Bar Sports Triathlon</h1>
-    <router-view></router-view>
+    <main-navigation></main-navigation>
+    <div class="container">
+      <div class="row tim-row">
+        <div class="col-md-12">
+          <router-view></router-view>
+        </div>
+      </div>
+    </div>
+    <footer-section></footer-section>
   </div>
 </template>
 
 <script>
+import mainNavigation from './components/main_navigation'
+import footerSection from './components/footer_section'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    mainNavigation,
+    footerSection
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+  @import "../assets/css/bootstrap.min.css";
+  @import "../assets/css/paper-kit.css";
+  @import "../assets/css/barsportstriathlon.css";
+
 </style>
