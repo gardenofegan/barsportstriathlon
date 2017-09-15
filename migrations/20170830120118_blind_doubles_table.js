@@ -6,10 +6,8 @@ exports.up = function(knex, Promise) {
     t.integer('blind_doubles_triathlete_id').unsigned().index().references('id_triathlete').inTable('triathlete')
     t.integer('blind_doubles_partner_id').unsigned().index().references('id_triathlete').inTable('triathlete')
   })
-};
+}
 
 exports.down = function(knex, Promise) {
   return knex.schema.dropTableIfExists('blind_doubles')
-};
-
-
+}

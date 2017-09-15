@@ -7,8 +7,7 @@ exports.up = function(knex, Promise) {
     .then(createDefMinorEventTable)
     .then(createMajorEventTable)
     .then(createMinorEventTable)
-    .then(createResultTable);
-
+    .then(createResultTable)
 
   function createTriathleteTable() {
     return knex.schema.createTableIfNotExists('triathlete', function (t) {
@@ -17,6 +16,7 @@ exports.up = function(knex, Promise) {
       t.string('last_name', 50).notNullable()
       t.string('nick_name', 50)
       t.string('description', 250)
+      t.integer('primary_division_id').unsigned().index().references('id_def_division').inTable('def_division')
     })
   }
 
